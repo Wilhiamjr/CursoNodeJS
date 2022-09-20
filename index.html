@@ -1,0 +1,14 @@
+<html>
+  <script>
+    const data = {
+      name: "Lost",
+      email: "lost@",
+    };
+    fetch("http://localhost:3000/gravar", {
+      method: "POST",
+      body: "Teste",
+    }).then((result) => console.log(result));
+
+    fetch('http://localhost:3000/consulta').then((result)=>console.log(result))
+  </script>
+</html>
